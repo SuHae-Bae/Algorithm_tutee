@@ -1,0 +1,28 @@
+A = int(input())
+B = int(input())
+C = int(input())
+
+cal = A*B*C
+# 문자열을 하나씩 쪼개서 리스트로 만드는 방법
+li = list(str(cal))
+z = li.count('0')
+a = li.count('1')
+b = li.count('2')
+c = li.count('3')
+d = li.count('4')
+e = li.count('5')
+f = li.count('6')
+g = li.count('7')
+h = li.count('8')
+i = li.count('9')
+
+print(z)
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
